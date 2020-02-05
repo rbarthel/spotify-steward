@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node server/main.js",
+    "start-dev": "webpack-dev-server",
     "watch": "webpack --watch",
     "build": "webpack --mode production"
   },
@@ -29,6 +30,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
