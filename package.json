@@ -1,0 +1,19 @@
+{
+  "name": "spotify-steward",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbarthel/spotify-steward.git"
+  },
+  "author": "rbarthel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbarthel/spotify-steward/issues"
+  },
+  "homepage": "https://github.com/rbarthel/spotify-steward#readme"
+}
