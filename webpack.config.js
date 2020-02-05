@@ -7,8 +7,10 @@ module.exports = {
         filename: 'index_bundle.js'
     },
     devServer: {
-        inline: true,
-        port: 8001
+    	watchContentBase: true,
+    	open: true,
+    	openPage: 'client/dist',
+        port: 9000
     },
     module: {
         rules: [
@@ -23,5 +25,5 @@ module.exports = {
                 }
             }
         ]
-    },
+    }
 }
