@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default function Account() {
+export default function Login() {
     return (
         <div class='page-container account'>
             <div class='header'>
