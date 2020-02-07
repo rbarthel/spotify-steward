@@ -7,9 +7,9 @@ module.exports = {
         filename: 'index_bundle.js'
     },
     devServer: {
-    	watchContentBase: true,
-    	open: true,
-    	openPage: 'client/dist',
+        watchContentBase: true,
+        open: true,
+        openPage: 'client/dist',
         port: 9000
     },
     module: {
