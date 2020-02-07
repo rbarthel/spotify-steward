@@ -4,7 +4,7 @@ module.exports = {
     entry: './client/src/main.js',
     output: {
         path: path.join(__dirname, '/client/dist'),
-        filename: 'index_bundle.js'
+        filename: 'bundle.js'
     },
     devServer: {
         watchContentBase: true,
